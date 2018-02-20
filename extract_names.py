@@ -14,8 +14,8 @@ text = sorted(list(text))
 
 text = list(filter(lambda x: x != '', text))
 text = list(filter(lambda x: x.istitle(), text))
-text = list(filter(lambda x: len(x) != 1, text))
-text = list(filter(lambda x: len(x) != 2, text))
+text = list(filter(lambda x: (len(x) != 1 and len(x) != 2), text))
+
 
 print(text)
 

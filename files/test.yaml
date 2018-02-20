@@ -1,3 +1,8 @@
-romance:
-     pursue: "Description of pursue"
-     chase: "Description of chase"
+type:
+    action: "Description of action"
+    romance: "Description of romance"
+
+opponents:
+    wizard: "wizard"
+    warlord: "warlord"
+
